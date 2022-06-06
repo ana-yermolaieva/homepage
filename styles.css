@@ -237,13 +237,13 @@ body {
     flex: 1 1 40%;
 }
 
-.additional-info__education {
-    margin-bottom: 20px;
-}
-
 .additional-info__education-header {
     color: var(--secondary-text-color);
     text-align: left;
+    margin-bottom: 20px;
+}
+
+.additional-info__education-university {
     margin-bottom: 20px;
 }
 
@@ -264,16 +264,26 @@ body {
     color: var(--secondary-text-color);
 }
 
-.additional-info__languages {
-    margin-bottom: 20px;
-}
-
-.additional-info__languages-header {
+.additional-info__education-university-certificate {
     color: var(--secondary-text-color);
-    text-align: left;
-    margin-bottom: 20px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: start;
 }
 
-.additional-info__languages-item {
+.additional-info__languages,
+.additional-info__hobby {
+    margin-bottom: 15px;
+}
+
+.additional-info__languages-header,
+.additional-info__hobby-header {
+    color: var(--primary-text-color);
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.additional-info__languages-item,
+.additional-info__hobby-list {
     color: var(--secondary-text-color);
 }
