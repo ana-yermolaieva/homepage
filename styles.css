@@ -106,6 +106,10 @@ body {
     justify-content: start;
 }
 
+.contact-info__item:hover {
+    text-decoration: underline;
+}
+
 .contact-info__item:not(:last-child) {
     margin-bottom: 20px;
 }
@@ -269,6 +273,10 @@ body {
     text-decoration: none;
     display: inline-flex;
     justify-content: start;
+}
+
+.additional-info__education-university-certificate:hover {
+    text-decoration: underline;
 }
 
 .additional-info__languages,
