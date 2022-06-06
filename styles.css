@@ -106,6 +106,10 @@ body {
     justify-content: start;
 }
 
+.contact-info__item:hover {
+    text-decoration: underline;
+}
+
 .contact-info__item:not(:last-child) {
     margin-bottom: 20px;
 }
@@ -128,8 +132,8 @@ body {
 
 .contact-info__avatar {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border: 3px solid;
     border-color: var(--text-decoration-color);
@@ -172,6 +176,14 @@ body {
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+}
+
+.skills__text--center {
+    text-align: center;
+}
+
+.skills__text-title {
+    font-weight: bold;
 }
 
 /* Experience and additonal info styles */
@@ -229,13 +241,13 @@ body {
     flex: 1 1 40%;
 }
 
-.additional-info__education {
-    margin-bottom: 20px;
-}
-
 .additional-info__education-header {
     color: var(--secondary-text-color);
     text-align: left;
+    margin-bottom: 20px;
+}
+
+.additional-info__education-university {
     margin-bottom: 20px;
 }
 
@@ -256,16 +268,30 @@ body {
     color: var(--secondary-text-color);
 }
 
-.additional-info__languages {
-    margin-bottom: 20px;
-}
-
-.additional-info__languages-header {
+.additional-info__education-university-certificate {
     color: var(--secondary-text-color);
-    text-align: left;
-    margin-bottom: 20px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: start;
 }
 
-.additional-info__languages-item {
+.additional-info__education-university-certificate:hover {
+    text-decoration: underline;
+}
+
+.additional-info__languages,
+.additional-info__hobby {
+    margin-bottom: 15px;
+}
+
+.additional-info__languages-header,
+.additional-info__hobby-header {
+    color: var(--primary-text-color);
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.additional-info__languages-item,
+.additional-info__hobby-list {
     color: var(--secondary-text-color);
 }
